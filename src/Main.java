@@ -9,8 +9,8 @@ public class Main {
 		FilenameFilter only = new MyFileFilter("doc");
 		File receiver = new File("/Users/artembelmeha/eclipse-workspace/Lesson5Task1/receiver");		
 		File source = new File("/Users/artembelmeha/eclipse-workspace/Lesson5Task1/source");
-		FileOperation.copyFileWithExt(source, receiver, only);
-		
+
+		FileOperation.copyFileWithExt(source,receiver,only);
 	}
 
 	
